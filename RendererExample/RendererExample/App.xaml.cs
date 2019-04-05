@@ -11,6 +11,7 @@ namespace RendererExample
         {
             InitializeComponent();
 
+            //MainPage = new MainPage();
             MainPage = new MainPage();
         }
 
