@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 
 using Foundation;
+using RendererExample;
 using RendererExample.iOS.Renderer;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof(Entry), typeof(CustomEntryRenderer))]
+[assembly: ExportRenderer(typeof(MyCustomEntry), typeof(CustomEntryRenderer))]
 namespace RendererExample.iOS.Renderer
 {
     public class CustomEntryRenderer : EntryRenderer
